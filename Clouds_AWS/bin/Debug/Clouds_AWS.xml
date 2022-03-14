@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Clouds_AWS</name>
+    </assembly>
+    <members>
+        <member name="M:Clouds_AWS.Controllers.UserController.GetUsers">
+            <summary>
+            This will show all existed Users
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
