@@ -76,7 +76,9 @@
             "dependsOn": [
                 "docker-build: debug"
             ],
-            "dockerRun": {},
+            "dockerRun": {
+                "os": "Windows"
+            },
             "netCore": {
                 "appProject": "${workspaceFolder}/Clouds_AWS/Clouds_AWS.csproj",
                 "enableDebugging": true
@@ -88,7 +90,9 @@
             "dependsOn": [
                 "docker-build: release"
             ],
-            "dockerRun": {},
+            "dockerRun": {
+                "os": "Windows"
+            },
             "netCore": {
                 "appProject": "${workspaceFolder}/Clouds_AWS/Clouds_AWS.csproj"
             }
