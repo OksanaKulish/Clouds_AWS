@@ -1,4 +1,7 @@
 FROM mcr.microsoft.com/dotnet/aspnet:3.1 AS base
+LABEL maintainer="asterisk.hu@gmail.com" \
+    version="0.1"
+
 WORKDIR /app
 EXPOSE 5000
 
