@@ -23,6 +23,8 @@ jobs:
     - name: Build the Docker image
       run: 
         cd Clouds_AWS
-        docker build . -t ${{secrets.DOCKER_USER}}/clouds-aws:v1
+    - name: Build the Docker imaged
+      run:
+        docker build . -t ${{secrets.DOCKER_USER}}/clouds-aws:$(date +%s)
    ### - name: Docker Push
     ###  run: docker push ${{secrets.DOCKER_USER}}/clouds-aws
