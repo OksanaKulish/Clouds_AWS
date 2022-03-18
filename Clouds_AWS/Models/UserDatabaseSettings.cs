@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
-namespace Clouds_AWS.Models
+﻿namespace Clouds_AWS.Models
 {
     public interface IUserDatabaseSettings
     {
@@ -11,7 +6,7 @@ namespace Clouds_AWS.Models
         string DatabaseName { get; set; }
         string CollectionName { get; set; }
     }
-    public class UserDatabaseSettings: IUserDatabaseSettings
+    public class UserDatabaseSettings : IUserDatabaseSettings
     {
         public string ConnectionURI { get; set; } = null!;
         public string DatabaseName { get; set; } = null!;

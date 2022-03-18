@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\okkul\\Desktop\\Clouds_AWS\\Clouds_AWS\\Clouds_AWS.csproj": {}
+    "C:\\Users\\okkul\\Desktop\\TEssss\\Clouds_AWS\\Clouds_AWS\\Clouds_AWS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\okkul\\Desktop\\Clouds_AWS\\Clouds_AWS\\Clouds_AWS.csproj": {
+    "C:\\Users\\okkul\\Desktop\\TEssss\\Clouds_AWS\\Clouds_AWS\\Clouds_AWS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\okkul\\Desktop\\Clouds_AWS\\Clouds_AWS\\Clouds_AWS.csproj",
+        "projectUniqueName": "C:\\Users\\okkul\\Desktop\\TEssss\\Clouds_AWS\\Clouds_AWS\\Clouds_AWS.csproj",
         "projectName": "Clouds_AWS",
-        "projectPath": "C:\\Users\\okkul\\Desktop\\Clouds_AWS\\Clouds_AWS\\Clouds_AWS.csproj",
+        "projectPath": "C:\\Users\\okkul\\Desktop\\TEssss\\Clouds_AWS\\Clouds_AWS\\Clouds_AWS.csproj",
         "packagesPath": "C:\\Users\\okkul\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\okkul\\Desktop\\Clouds_AWS\\Clouds_AWS\\obj\\",
+        "outputPath": "C:\\Users\\okkul\\Desktop\\TEssss\\Clouds_AWS\\Clouds_AWS\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

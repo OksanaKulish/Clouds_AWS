@@ -31,7 +31,7 @@ namespace Clouds_AWS
             services.Configure<UserDatabaseSettings>(Configuration.GetSection("UserDatabaseSettings"));
             services.AddSingleton<IUserDatabaseSettings>(serviceProvider =>
                 serviceProvider.GetRequiredService<IOptions<UserDatabaseSettings>>().Value);
-                        
+
 
             services.AddSwaggerGen(c =>
             {
