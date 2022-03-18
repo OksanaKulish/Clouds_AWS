@@ -1,6 +1,6 @@
 # Clouds_AWS
 Status of Last Deployment: <br>
-<img src="https://github.com/adv4000/Clouds_AWS/workflows/.NET/badge.svg?branch=master"><br>
+[![.NET](https://github.com/OksanaKulish/Clouds_AWS/actions/workflows/dotnet.yml/badge.svg)](https://github.com/OksanaKulish/Clouds_AWS/actions/workflows/dotnet.yml)
 
 Task: 
   1. Make docker container with CRUD service working over MongoDB. (docker)
