@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Clouds_AWS</name>
+    </assembly>
+    <members>
+        <member name="M:Clouds_AWS.Controllers.UserController.GetUsers">
+            <summary>
+            This will show all existed Users.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Clouds_AWS.Controllers.UserController.GetUserById(System.String)">
+            <summary>
+            This will show user by id.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Clouds_AWS.Controllers.UserController.CreateUser(Clouds_AWS.Entities.User)">
+            <summary>
+            This will create user.
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

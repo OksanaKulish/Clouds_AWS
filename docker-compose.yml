@@ -8,6 +8,9 @@ services:
       container_name: mongodb
       ports:
         - "27017:27017"
+      restart: always
+      volumes:
+        - data:/data/db
 
   cloudsaws:
     image: cloudsaws
@@ -20,3 +23,4 @@ services:
       - 5000:5000
     depends_on:
       - mongodb
+

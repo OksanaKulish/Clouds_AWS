@@ -2,10 +2,6 @@
 using Clouds_AWS.Models;
 using Microsoft.Extensions.Options;
 using MongoDB.Driver;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace Clouds_AWS.Data
 {
@@ -17,6 +13,6 @@ namespace Clouds_AWS.Data
             MongoClient client = new MongoClient(mongoDBSettings.Value.ConnectionURI);
             IMongoDatabase database = client.GetDatabase(mongoDBSettings.Value.DatabaseName);
             Users = database.GetCollection<User>(mongoDBSettings.Value.CollectionName);
-        }       
+        }
     }
 }
