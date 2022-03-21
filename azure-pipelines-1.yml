@@ -23,6 +23,6 @@ stages:
     - task: Docker@2
       inputs:
         containerRegistry: 'simplestone-dokerHub'
-        repository: 'clouds-aws'
+        repository: 'simplestone/clouds-aws'
         command: 'build'
         Dockerfile: '**/Dockerfile'
