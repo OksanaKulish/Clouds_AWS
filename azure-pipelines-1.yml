@@ -27,3 +27,9 @@ stages:
         dockerfile: '$(Build.SourcesDirectory)/Clouds_AWS/Dockerfile'
         tags: |
           $(tag)
+    - task: Docker@2
+      inputs:
+        containerRegistry: 'simplestone-dokerHub'
+        repository: 'clouds-aws'
+        command: 'build'
+        Dockerfile: '**/Dockerfile'
